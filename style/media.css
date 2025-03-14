@@ -1,0 +1,184 @@
+@media (max-width: 300px) {
+  .ul {
+    overflow: hidden;
+  }
+  .link {
+    overflow: hidden;
+    opacity: 0;
+  }
+  .navbar_logo {
+    width: 100px;
+    height: 20px;
+  }
+  .intiro {
+    width: 280;
+    height: 700px;
+    background-image: url(../img/media__img.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .intiro__left {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 330px;
+  }
+  .intiro__title {
+    width: 280px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .intiro__text {
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .intiro__btn {
+    width: 210px;
+    display: block;
+    margin: 16px auto;
+  }
+  .section__card {
+    padding: 20px;
+  }
+  .cardss__title {
+    text-align: center;
+  }
+  .cards__img {
+    width: 270px;
+  }
+  .article {
+    margin-top: 1500px;
+  }
+  .article__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 265px;
+  }
+  .article__title {
+    color: black;
+    max-width: 150px;
+    font-size: 24px;
+    margin: 30px auto;
+  }
+  .gred__img {
+    width: 255px;
+  }
+  .grd__img {
+    width: 255px;
+  }
+  .artecle__cards {
+    width: 260px;
+  }
+  .cards__title {
+    text-align: left;
+    font-size: 22px;
+  }
+  .cars__div {
+    width: 258px;
+    position: relative;
+    left: 20px;
+  }
+  .article__div {
+    margin-top: 50px;
+  }
+  .aside {
+    margin-top: 550px;
+    padding: auto;
+  }
+  .title__div {
+    gap: 0;
+  }
+  .aside__title {
+    font-size: 30px;
+  }
+  .cards__textt {
+    font-size: 10px;
+  }
+  .aside__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: auto;
+  }
+  .article__cards {
+    max-width: 270px;
+  }
+  .aside__img {
+    max-width: 270px;
+  }
+  .section__contac {
+    margin-top: 620px;
+    position: relative;
+    bottom: 0;
+  }
+  .contac__title {
+    font-size: 28px;
+  }
+  .contac__text {
+    font-size: 15px;
+  }
+  .email {
+    width: 200px;
+  }
+  .instagram {
+    margin-top: 40px;
+  }
+  .instagram__div {
+    margin-top: 30px;
+  }
+  .insta__div {
+    flex-wrap: wrap;
+  }
+  .img__xokkey {
+    width: 140px;
+    height: 140px;
+  }
+  .foter {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding-top: 0 auto;
+  }
+  .foter__item {
+    margin-top: 20px;
+    position: relative;
+    right: 27px;
+  }
+  .foter__itemm {
+    position: relative;
+    right: 60px;
+    margin-top: 25px;
+  }
+  .foter__ite {
+    position: relative;
+    right: 42px;
+  }
+  .foter__hr {
+    width: 260px;
+  }
+  .fuuter {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .futer__div {
+    flex-wrap: wrap;
+  }
+  .fuuter__texttt {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+
+  }
+  .fuuter__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .futer__img{
+    width: 260px;
+    position: relative;
+    bottom: 100px;
+  }
+}

@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1300px;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar__title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #141718;
+}
+.link {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #141718;
+}
+.navbar_logo {
+  width: 130px;
+  height: 28px;
+  gap: 16px;
+}
+/* ##########################INTIRO#########################3 */
+.intiro {
+  max-width: 1300px;
+  height: 800px;
+  background-image: url(../img/img2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.intiro__left {
+  margin-left: 130px;
+}
+.intiro__title {
+  width: 497px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 70px;
+  letter-spacing: -2px;
+  color: #fff;
+}
+.intiro__text {
+  margin-top: 8px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.intiro__btn {
+  width: 234px;
+  height: 56px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  border-radius: 8px;
+  background: #38cb89;
+  margin-top: 28px;
+}
+/* #######################SECTION##################### */
+.section {
+  max-width: 1300px;
+  height: 850px;
+  margin-top: 50px;
+}
+.h4 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  padding-top: 30px;
+}
+.section__cards {
+  max-width: 300px;
+  max-height: 310px;
+}
+.cardss__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 15px;
+}
+.cards__img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.section__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 40px;
+}
+.section__cards {
+  margin-top: 10px;
+}
+/* #######################ARTICLE################### */
+.article {
+  max-width: 1300px;
+  height: 700px;
+  margin-top: 50px;
+}
+.article__title {
+  max-width: 311px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  color: #141718;
+  margin-top: 50px;
+  margin-left: 135px;
+}
+.article__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.artecle__cards {
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+}
+.grid__card {
+  max-width: 500px;
+  width: 100%;
+  height: 225px;
+}
+.gred__img {
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+}
+.grd__img {
+  max-width: 600px;
+  width: 100%;
+  height: 220px;
+}
+
+.article__div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.cards__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 38px;
+  letter-spacing: -0.6px;
+  color: #141718;
+  text-align: left;
+}
+.cards__text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #141718;
+}
+.gred__div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hr {
+  width: 106px;
+  height: 3px;
+  background-color: #141718;
+}
+.cars__div {
+  position: relative;
+  bottom: 120px;
+  left: 50px;
+}
+.cars__divv {
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+}
+/* ###########################ASIDE######################## */
+.aside {
+  max-width: 1300px;
+  height: 600px;
+}
+.title__div {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.aside__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  color: #141718;
+}
+.cards__textt {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #141718;
+}
+.article__cards {
+  max-width: 300px;
+  height: 360px;
+}
+.aside__img {
+  max-width: 300px;
+}
+.article__text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #141718;
+  margin-top: 10px;
+}
+
+.aside__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+/* ###############################SECTION########################## */
+.section__contac {
+  max-width: 1300px;
+  height: 400px;
+  background-image: url(../img/img15.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 100px;
+}
+.contac__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #fff;
+}
+.contac__div {
+  position: relative;
+  top: 130px;
+}
+.contac__text {
+  color: #fff;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 5px;
+}
+.contac__email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 160px;
+}
+.email {
+  width: 328px;
+  height: 42px;
+  padding-left: 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: black;
+}
+.contac__btn {
+  max-width: 85px;
+  height: 41px;
+  border: none;
+  color: #fff;
+  background-color: black;
+}
+.instagram {
+  max-width: 1300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.instagram__div {
+  margin-top: 10px;
+}
+.instagram__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #141718;
+}
+.instagram__text {
+  margin: 10px auto;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #141718;
+}
+.instagram__nik {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #141718;
+}
+.insta__div {
+  margin-top: 50px;
+  display: flex;
+}
+.img__xokkey {
+  max-width: 216px;
+  height: 220px;
+}
+/* ##########################FOOTER################# */
+.footer {
+  max-width: 100%;
+  height: auto;
+  background-color: #000000;
+}
+.foter__title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.foter__text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.link__title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.foter__link {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.foter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+.foter__itemm {
+  margin-bottom: 40px;
+}
+.foter__logo {
+  margin-top: 20px;
+}
+.foter__hr {
+  max-width: 1130px;
+  height: 2px;
+  background-color: #fff;
+  margin: 50px auto;
+}
+.fuuter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 158px;
+}
+.foter__itemm{
+  position: relative;
+  top: 20px;
+}
+
+.fuuter__texttt {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.fuuter__text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #6c7275;
+}
+.futer__div {
+  display: flex;
+  gap: 30px;
+}
